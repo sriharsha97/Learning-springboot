@@ -37,5 +37,12 @@ public class Course {
 		return "Course [id=" + id + ", name=" + name + ", authur=" + authur + "]";
 	}
 
+
+	public Course(String name, String authur) {
+	    super();
+	    this.name = name;
+	    this.authur = authur;
+	}
+
 	
 }
