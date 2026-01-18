@@ -142,4 +142,10 @@ public class CourseController {
             .header("Content-Type", "text/csv")
             .body(sb.toString());
     }
+    
+    @GetMapping("/hello")
+    public String hello() {
+	return "Hello World!";
+    }
+    
 }
